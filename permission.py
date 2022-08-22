@@ -80,7 +80,7 @@ class BaseUserPermission(BasePermission):
         return True
 
 
-# 默认后台用户认证
+# 平台1权限类
 class UserPermission(BaseUserPermission):
     def __init__(self):
         self.platformid = 1
