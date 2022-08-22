@@ -1,3 +1,5 @@
+from rest_framework import exceptions
+
 EXCEPTIONS_CODE = {
     # wliot_system
     "用户登录已失效": 10000,
