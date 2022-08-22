@@ -7,12 +7,13 @@ Django自己实现的权限组，支持多平台，支持Token认证，支持细
 
 
 
+
 原理:
 4张表
 [mydjango_permission_group权限角色组]
-[mydjango_wliot_permission_user用户分配的权限组]
+[mydjango_permission_user用户分配的权限组]
 [mydjango_permission_groups_permissions用户组拥有的权限]
-[mydjango_wliot_permission_info权限名称]
+[mydjango_permission_info权限名称]
 
 1,项目首次启动,models加载后,自动向数据库插入权限信息,默认基础4个权限get/post/put/delete
 可自定义类的接口权限和扩展权限
